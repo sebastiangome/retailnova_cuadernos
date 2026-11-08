@@ -1,0 +1,66 @@
+{
+  "n_muestra": 2000,
+  "importancia_global": [
+    {
+      "variable": "antiguedad_dias",
+      "impacto_medio_abs": 1.400158419239587
+    },
+    {
+      "variable": "frecuencia_compra",
+      "impacto_medio_abs": 0.7592294093344757
+    },
+    {
+      "variable": "cantidad_compras",
+      "impacto_medio_abs": 0.682905732501287
+    },
+    {
+      "variable": "reclamos",
+      "impacto_medio_abs": 0.5529731883128121
+    },
+    {
+      "variable": "interacciones_marketing",
+      "impacto_medio_abs": 0.4146753463076163
+    },
+    {
+      "variable": "uso_promociones",
+      "impacto_medio_abs": 0.3868359470098726
+    },
+    {
+      "variable": "canal_compra_E-commerce",
+      "impacto_medio_abs": 0.22771880230582875
+    },
+    {
+      "variable": "canal_compra_Mixto",
+      "impacto_medio_abs": 0.20833722978434527
+    },
+    {
+      "variable": "devoluciones",
+      "impacto_medio_abs": 0.1545514905683827
+    },
+    {
+      "variable": "canal_compra_Tienda física",
+      "impacto_medio_abs": 0.06609527928885225
+    }
+  ],
+  "ficha_ejemplo": {
+    "id_cliente": "CL070611",
+    "probabilidad_abandono": 0.9570704676025282,
+    "factores": [
+      {
+        "variable": "reclamos",
+        "efecto": "aumenta",
+        "impacto": 2.2851192719431803
+      },
+      {
+        "variable": "antiguedad_dias",
+        "efecto": "aumenta",
+        "impacto": 1.07060224821345
+      },
+      {
+        "variable": "frecuencia_compra",
+        "efecto": "aumenta",
+        "impacto": 0.9108754559373187
+      }
+    ]
+  }
+}
