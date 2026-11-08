@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# Datos y modelos se regeneran con `python main.py` (no se versionan)
+*.csv
+*.joblib
+data/raw/estado_rng.json
